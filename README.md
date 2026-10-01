@@ -1,4 +1,4 @@
-# Navaf PT | Cybersecurity Analyst Portfolio
+# Cybersecurity Analyst Portfolio
 
 A clean, modern, responsive personal portfolio website built with plain HTML, CSS, and vanilla JavaScript for a cybersecurity professional.
 
