@@ -80,5 +80,3 @@ If the image is missing, the layout still looks complete and polished without it
 - The GitHub and LinkedIn URLs can be updated directly in `index.html`.
 - The contact form is frontend-only and opens the default mail client instead of submitting to a backend.
 - This is intentionally kept lightweight and easy to edit.
-# My-Portfolio
-# My-Portfolio
