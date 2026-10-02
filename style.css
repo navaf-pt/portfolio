@@ -1018,25 +1018,13 @@ p {
     transform: none;
   }
 
-  .hero-copy > :not(.status-panel, h1) {
+  .hero-copy > :not(.status-panel) {
     grid-column: 1 / -1;
-  }
-
-  .hero-copy > h1 {
-    grid-column: 1;
-    grid-row: 2;
-    align-self: start;
-    font-size: 2.1rem;
-  }
-
-  .hero-copy h1 span {
-    display: block;
-    white-space: nowrap;
   }
 
   .hero-copy .terminal-matrix {
     display: grid;
-    grid-column: 1 / -1;
+    grid-column: 1;
     grid-row: 7;
     width: 100%;
     margin-top: 1rem;
@@ -1065,7 +1053,7 @@ p {
 
   .hero-visual .hero-portrait {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 7;
     width: 100%;
     transform: none;
   }
