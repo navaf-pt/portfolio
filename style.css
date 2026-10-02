@@ -446,29 +446,29 @@ p {
 
 .matrix-stream-content {
   display: block;
-  animation: matrix-code-fall 10s linear infinite;
+  animation: matrix-code-fall 8s linear infinite;
 }
 
-.matrix-stream:nth-child(2) .matrix-stream-content { animation-duration: 12s; }
-.matrix-stream:nth-child(3) .matrix-stream-content { animation-duration: 8s; }
-.matrix-stream:nth-child(4) .matrix-stream-content { animation-duration: 14s; }
-.matrix-stream:nth-child(5) .matrix-stream-content { animation-duration: 11s; }
-.matrix-stream:nth-child(6) .matrix-stream-content { animation-duration: 9s; }
-.matrix-stream:nth-child(7) .matrix-stream-content { animation-duration: 14s; }
-.matrix-stream:nth-child(8) .matrix-stream-content { animation-duration: 10s; }
-.matrix-stream:nth-child(9) .matrix-stream-content { animation-duration: 13s; }
-.matrix-stream:nth-child(10) .matrix-stream-content { animation-duration: 8.5s; }
-.matrix-stream:nth-child(11) .matrix-stream-content { animation-duration: 12s; }
-.matrix-stream:nth-child(12) .matrix-stream-content { animation-duration: 14s; }
-.matrix-stream:nth-child(13) .matrix-stream-content { animation-duration: 9.5s; }
-.matrix-stream:nth-child(14) .matrix-stream-content { animation-duration: 12.5s; }
-.matrix-stream:nth-child(15) .matrix-stream-content { animation-duration: 9s; }
-.matrix-stream:nth-child(16) .matrix-stream-content { animation-duration: 14s; }
-.matrix-stream:nth-child(17) .matrix-stream-content { animation-duration: 10s; }
-.matrix-stream:nth-child(18) .matrix-stream-content { animation-duration: 12s; }
-.matrix-stream:nth-child(19) .matrix-stream-content { animation-duration: 8.5s; }
-.matrix-stream:nth-child(20) .matrix-stream-content { animation-duration: 14s; }
-.matrix-stream:nth-child(21) .matrix-stream-content { animation-duration: 11s; }
+.matrix-stream:nth-child(2) .matrix-stream-content { animation-duration: 9.5s; }
+.matrix-stream:nth-child(3) .matrix-stream-content { animation-duration: 6.5s; }
+.matrix-stream:nth-child(4) .matrix-stream-content { animation-duration: 11s; }
+.matrix-stream:nth-child(5) .matrix-stream-content { animation-duration: 8.5s; }
+.matrix-stream:nth-child(6) .matrix-stream-content { animation-duration: 7s; }
+.matrix-stream:nth-child(7) .matrix-stream-content { animation-duration: 11s; }
+.matrix-stream:nth-child(8) .matrix-stream-content { animation-duration: 8s; }
+.matrix-stream:nth-child(9) .matrix-stream-content { animation-duration: 10s; }
+.matrix-stream:nth-child(10) .matrix-stream-content { animation-duration: 7s; }
+.matrix-stream:nth-child(11) .matrix-stream-content { animation-duration: 9.5s; }
+.matrix-stream:nth-child(12) .matrix-stream-content { animation-duration: 11s; }
+.matrix-stream:nth-child(13) .matrix-stream-content { animation-duration: 7.5s; }
+.matrix-stream:nth-child(14) .matrix-stream-content { animation-duration: 10s; }
+.matrix-stream:nth-child(15) .matrix-stream-content { animation-duration: 7s; }
+.matrix-stream:nth-child(16) .matrix-stream-content { animation-duration: 11s; }
+.matrix-stream:nth-child(17) .matrix-stream-content { animation-duration: 8s; }
+.matrix-stream:nth-child(18) .matrix-stream-content { animation-duration: 9.5s; }
+.matrix-stream:nth-child(19) .matrix-stream-content { animation-duration: 7s; }
+.matrix-stream:nth-child(20) .matrix-stream-content { animation-duration: 11s; }
+.matrix-stream:nth-child(21) .matrix-stream-content { animation-duration: 8.5s; }
 
 @keyframes matrix-code-fall {
   from { transform: translateY(-50%); }
