@@ -1029,9 +1029,14 @@ p {
     font-size: 2.1rem;
   }
 
+  .hero-copy h1 span {
+    display: block;
+    white-space: nowrap;
+  }
+
   .hero-copy .terminal-matrix {
     display: grid;
-    grid-column: 1;
+    grid-column: 1 / -1;
     grid-row: 7;
     width: 100%;
     margin-top: 1rem;
