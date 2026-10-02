@@ -969,7 +969,7 @@ p {
 
   .hero-grid {
     grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
-    column-gap: 0.65rem;
+    column-gap: 1.25rem;
     row-gap: 1.1rem;
     align-items: start;
   }
