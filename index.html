@@ -85,16 +85,31 @@
                 </a>
               </div>
 
-              <div class="status-panel" aria-label="Security monitoring terminal">
-                <div class="panel-header" aria-hidden="true">
-                  <span class="red-dot"></span>
-                  <span class="amber-dot"></span>
-                  <span class="green-dot"></span>
+              <div class="terminal-matrix">
+                <div class="terminal-card threat-status">
+                  <span class="card-label">Threat posture</span>
+                  <strong>Monitoring</strong>
+                  <div class="signal-lines" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
                 </div>
-                <div class="terminal-content">
-                  <p class="terminal-line"><span class="prompt">root@analyst</span>:$ threat-scan --mode live</p>
-                  <p class="terminal-line">[INFO] Monitoring endpoints, network telemetry, and exposure paths...</p>
-                  <p class="terminal-line">[OK] Active defenses aligned with research, VAPT, and threat intel workflows.</p>
+                <div class="status-panel" aria-label="Security monitoring terminal">
+                  <div class="panel-header" aria-hidden="true">
+                    <span class="red-dot"></span>
+                    <span class="amber-dot"></span>
+                    <span class="green-dot"></span>
+                  </div>
+                  <div class="terminal-content">
+                    <p class="terminal-line"><span class="prompt">root@analyst</span>:$ threat-scan --mode live</p>
+                    <p class="terminal-line">[INFO] Monitoring endpoints, network telemetry, and exposure paths...</p>
+                    <p class="terminal-line">[OK] Active defenses aligned with research, VAPT, and threat intel workflows.</p>
+                  </div>
+                </div>
+                <div class="terminal-card focus-status">
+                  <span class="card-label">Focus</span>
+                  <strong>Research &amp; Defense</strong>
                 </div>
               </div>
             </div>
@@ -106,19 +121,6 @@
                 alt="Navaf PT, Cybersecurity Analyst"
                 fetchpriority="high"
               />
-              <div class="floating-card security-card">
-                <span class="card-label">Threat posture</span>
-                <strong>Monitoring</strong>
-                <div class="signal-lines" aria-hidden="true">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-              </div>
-              <div class="floating-card metrics-card">
-                <span class="card-label">Focus</span>
-                <strong>Research &amp; Defense</strong>
-              </div>
             </div>
           </div>
         </section>
