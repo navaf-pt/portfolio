@@ -1052,6 +1052,7 @@ p {
     top: auto;
     bottom: auto;
     width: 100%;
+    animation: none;
   }
 
   .threat-status {
